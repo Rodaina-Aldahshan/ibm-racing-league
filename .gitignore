@@ -1,0 +1,25 @@
+# Ignore the entire TORCS installation
+torcs/torcs/
+
+# Ignore the compiled TORCS source/build directory
+torcs/gym_torcs/vtorcs-RL-color/
+
+# Ignore generated logs
+torcs/gym_torcs/*log*.txt
+
+# Ignore IDE files
+torcs/gym_torcs/.idea/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore archives and binaries
+*.zip
+*.exe
+*.dll
+*.rgb
+*.rgbbak
+*.acc
+*.wav
+*.ogg
